@@ -1,0 +1,10 @@
+.git/
+.metals/
+.bloop/
+.bsp/
+.idea/
+target/
+project/target/
+project/project/
+*.class
+*.log

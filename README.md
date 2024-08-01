@@ -4,6 +4,15 @@ scala3.g8: simple scala3-compiled sbt project template
 
 A [Giter8][g8] template for a minimal [Scala 3] project.
 
+ColOfAbRiX's Customizations
+--------------
+* Proper, packaged directory structure
+* Scalafix and Scalafmt rules
+* sbt-tpolecat strictness
+* Better default values for SBT `root` project
+* Cats support as default, including sample IOApp
+* More .gitignore entries
+
 Template usage
 --------------
 Using `sbt`, do:

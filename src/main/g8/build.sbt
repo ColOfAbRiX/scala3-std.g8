@@ -23,8 +23,8 @@ lazy val root =
       semanticdbEnabled := true,
       semanticdbVersion := scalafixSemanticdb.revision,
       libraryDependencies ++= List(
-        "org.scalameta"        %% "munit"              % "1.0.0" % Test,
-        "org.typelevel"        %% "cats-core"          % "2.12.0",
-        "org.typelevel"        %% "cats-effect"        % "3.5.4",
+        "org.scalameta" %% "munit"       % "1.0.0" % Test,
+        "org.typelevel" %% "cats-core"   % "2.12.0",
+        "org.typelevel" %% "cats-effect" % "3.5.4",
       ),
     )

@@ -1,4 +1,4 @@
-package $organization$
+package $organization$.$name$
 
 import munit.FunSuite
 

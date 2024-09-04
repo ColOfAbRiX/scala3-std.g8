@@ -7,10 +7,12 @@ A [Giter8][g8] template for a minimal [Scala 3] project.
 ColOfAbRiX's Customizations
 --------------
 * Proper, packaged directory structure
-* Scalafix and Scalafmt rules
-* sbt-tpolecat strictness
+* [Cats][scala-cats] support as default, including sample IOApp
+* Standard formatting with [Scalafmt][scalafmt]
+* Code quality checks:
+  * [Scalafix][scalafix] rules
+  * [sbt-tpolecat][sbt-tpolecat] compiler flags
 * Better default values for SBT `root` project
-* Cats support as default, including sample IOApp
 * More .gitignore entries
 
 Template usage
@@ -32,3 +34,7 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [g8]: http://www.foundweekends.org/giter8/
 [Scala 3]: http://dotty.epfl.ch/
 [Nicolas Stucki]: https://github.com/nicolasstucki
+[scala-cats]: https://typelevel.org/cats/
+[scalafix]: https://scalacenter.github.io/scalafix/
+[scalafmt]: https://scalameta.org/scalafmt/
+[sbt-tpolecat]: https://github.com/typelevel/sbt-tpolecat

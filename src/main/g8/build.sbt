@@ -11,6 +11,8 @@ Global / tpolecatExcludeOptions ++=
     ScalacOptions.warnUnusedLocals,
   )
 
+Compile / compile / wartremoverErrors ++= Warts.unsafe
+
 lazy val root =
   project
     .in(file("."))

@@ -10,6 +10,7 @@ ColOfAbRiX's Customizations
 * [Cats][scala-cats] support as default, including sample IOApp
 * Standard formatting with [Scalafmt][scalafmt]
 * Code quality checks:
+  * [Wartremover][wartremover] checks
   * [Scalafix][scalafix] rules
   * [sbt-tpolecat][sbt-tpolecat] compiler flags
 * Better default values for SBT `root` project
@@ -38,3 +39,4 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [scalafix]: https://scalacenter.github.io/scalafix/
 [scalafmt]: https://scalameta.org/scalafmt/
 [sbt-tpolecat]: https://github.com/typelevel/sbt-tpolecat
+[wartremover]: https://www.wartremover.org/

@@ -8,6 +8,8 @@ dist/*
 target/
 lib_managed/
 src_managed/
+project/project/
+project/project/metals.sbt
 project/boot/
 project/plugins/project/
 project/local-plugins.sbt

@@ -1,8 +1,11 @@
 package $organization$.$name$
 
-import munit.FunSuite
+import munit.CatsEffectSuite
 
-class MainSpec extends FunSuite {
+/**
+ * Main class tests
+ */
+class MainSpec extends CatsEffectSuite {
 
   test("Example test that succeeds") {
     val obtained = 42
